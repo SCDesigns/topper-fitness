@@ -31,7 +31,10 @@
 	<body>
 			<?php include "./layouts/header.html" ?>
 		<section class="landing">
-			<img class="slide" src="./assets/img/banner-1.jpg"/>
+			<div class="hero">
+				<h1>Topper Fitness</h1>
+				<h4>Welcome to the TOP</h4>
+			</div>
 		</section>
 	</body>
 </html>

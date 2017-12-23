@@ -26,6 +26,10 @@ body {
   font-variant-numeric: proportional-nums;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 .landing {
   background-image: linear-gradient(to bottom left, #212121, #424242);
   width: 100%;
@@ -64,21 +68,22 @@ ol, ul {
 
 .navlist a {
   text-decoration: none;
-  color: #fff;
+  color: #BDBDBD;
 }
 
 .navlist a:hover {
   font-weight: bold;
+  color: #fff;
 }
 
 .navHeader {
   width: 100%;
   z-index: 500;
-  height: 60px;
-  z-index: 1000;
+  height: 50px;
   position: absolute;
   display: flex;
   flex-direction: row;
+  margin-top: 12.5px;
 }
 
 .navHeader ul {
@@ -91,6 +96,24 @@ ol, ul {
   justify-content: left;
 }
 
-.navbar {
-  margin: 15px 0 0;
+.landing {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../assets/img/banner.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: center;
+  text-align: center;
+}
+
+.hero {
+  padding: 20px 10px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 5px;
 }
