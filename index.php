@@ -29,8 +29,9 @@
     <!--templates-->
 	</head>
 	<body>
-		<section class="landing">
 			<?php include "./layouts/header.html" ?>
+		<section class="landing">
+			<img class="slide" src="./assets/img/banner-1.jpg"/>
 		</section>
 	</body>
 </html>
