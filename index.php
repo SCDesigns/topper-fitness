@@ -33,8 +33,20 @@
 		<section class="landing">
 			<div class="hero">
 				<h1>Topper Fitness</h1>
-				<h4>Welcome to the TOP</h4>
+				<hr><h4>Welcome to the TOP</h4><hr>
 			</div>
+		</section>
+		<section class="about">
+			<div class="overlay">
+				<h3>About</h3>
+				<hr>
+				<p>Unlike the normal gym setting, here at Topper Fitness you will be part of the family.
+					Topper Fitness offers general memberships, specialized personal training and popular small
+					group fitness classes for our clients. Topper Fitness features state of the art LifeFitness
+					cardio and strength training equipment in addition to free weights, TRX and other multiple
+					tools of training.</p>
+			</div>
+			<img src="./assets/img/about.jpg" class="about-img"/>
 		</section>
 	</body>
 </html>

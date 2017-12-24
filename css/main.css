@@ -26,8 +26,16 @@ body {
   font-variant-numeric: proportional-nums;
 }
 
-h1 {
+.hero h1 {
   text-transform: uppercase;
+  font-family: HelveticaNeueLTStdHv;
+  margin-bottom: 0;
+}
+
+.hero h4 {
+  color: #E0E0E0;
+  font-family: HelveticaNeueLTStdLt;
+  display: inline-block;
 }
 
 .landing {
@@ -55,6 +63,19 @@ ol, ul {
   list-style: none;
 }
 
+hr {
+  display: inline-block;
+  width: 50px;
+  margin: 11.5px 15px;
+  color: #FFFFFF;
+}
+
+.overlay hr {
+  display: block;
+  color: #000;
+  width: 175px;
+  margin: 15px 5px -20px;
+}
 .navlist {
   display: flex;
   flex: 1;
@@ -68,7 +89,7 @@ ol, ul {
 
 .navlist a {
   text-decoration: none;
-  color: #BDBDBD;
+  color: #E0E0E0;
 }
 
 .navlist a:hover {
@@ -83,7 +104,7 @@ ol, ul {
   position: absolute;
   display: flex;
   flex-direction: row;
-  margin-top: 12.5px;
+  margin-top: 15px;
 }
 
 .navHeader ul {
@@ -100,7 +121,7 @@ ol, ul {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(../assets/img/banner.jpg);
+  ), url(../assets/img/banner.jpg);
   background-size: cover;
   width: 100%;
   height: 800px;
@@ -112,8 +133,53 @@ ol, ul {
 }
 
 .hero {
-  padding: 20px 10px;
+  padding: 10px 0;
+  margin: 0 auto;
   color: #fff;
   font-size: 40px;
   line-height: 5px;
+}
+
+.about {
+  background-image: url(../assets/img/about-bg.png);
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  font-family: HelveticaNeueLTStdHv;
+  color: #000;
+  width: 100%;
+  height: 800px;
+  font-size: 40px;
+}
+
+.overlay {
+  background-color: #FFFFFF;
+  width: 500px;
+  height: 80%;
+  margin: 0 auto auto 250px ;
+  padding: 60px;
+  z-index: 1;
+  position: absolute;
+}
+
+.about h3 {
+  margin: -15px auto 15px;
+  display: inline;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 40px;
+  width: 400px;
+  padding: 30px 0 0;
+  text-align: left;
+}
+
+.about-img {
+  margin: 160px auto 0 725px;
+  width: 500px;
+  display: flex;
+  height: 80%;
+  position: absolute;
+  border: 25px solid #FFFFFF;
 }
