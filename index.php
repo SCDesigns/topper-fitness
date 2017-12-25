@@ -48,7 +48,7 @@
 			<img src="./assets/img/about.jpg" class="about-img"/>
 		</section>
 		<section id="trainers">
-			<h3>Our Trainers</h3>
+			<h3>The Trainers</h3>
 			<hr>
 			<div class="container">
 				<div class="row">
@@ -186,7 +186,7 @@
 			</div><!-- container-->
 		</section>
 		<section id="staff">
-			<h3>Our Staff</h3>
+			<h3>The Staff</h3>
 			<hr>
 			<div class="container">
 				<div class="row">
