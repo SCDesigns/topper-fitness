@@ -86,7 +86,7 @@
 								<img src="./assets/img/trainers/3.jpg" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>TRAINER / GROUP CLASS INSTRUCTOR</h4>
 								<h3>
 									Jennifer<br>Wilson
 								</h3>
@@ -102,7 +102,7 @@
 								<img src="./assets/img/trainers/4.jpg" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>FACILITY MANAGER / TRAINER + GROUP CLASS INSTRUCTOR</h4>
+								<h4>FACILITY MANAGER / TRAINER / GROUP CLASS INSTRUCTOR</h4>
 								<h3>
 									Darci<br>Hill
 								</h3>
@@ -116,9 +116,9 @@
 								<img src="./assets/img/trainers/5.jpg" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>MS ATHLETIC CONDITIONING TRAINING / TRAINER / GROUP CLASS INSTRUCTOR</h4>
 								<h3>
-									Jennifer<br>Wilson
+									Branden<br>Peloso
 								</h3>
 								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
 							</div>
@@ -130,9 +130,9 @@
 								<img src="./assets/img/trainers/6.png" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>BS IN EXERCISE SCIENCE / TRAINER FOR SPECIAL POPULATIONS</h4>
 								<h3>
-									Jennifer<br>Wilson
+									Tyler<br>Morgan
 								</h3>
 								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
 							</div>
@@ -146,9 +146,9 @@
 								<img src="./assets/img/trainers/7.jpg" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>TRAINER / GROUP CLASS INSTRUCTOR</h4>
 								<h3>
-									Jennifer<br>Wilson
+									Addie<br>Foley
 								</h3>
 								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
 							</div>
@@ -160,9 +160,9 @@
 								<img src="./assets/img/trainers/8.jpg" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>GROUP CLASS INSTRUCTOR</h4>
 								<h3>
-									Jennifer<br>Wilson
+									Mike<br>Huey
 								</h3>
 								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
 							</div>
@@ -174,9 +174,9 @@
 								<img src="./assets/img/trainers/9.png" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>ATHLETIC CONDITIONING EDUCATION / TRAINER / GROUP CLASS INSTRUCTOR</h4>
 								<h3>
-									Jennifer<br>Wilson
+									Donna<br>Minotti
 								</h3>
 								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
 							</div>
@@ -196,9 +196,9 @@
 								<img src="./assets/img/trainers/10.jpg" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>FITNESS ATTENDANT</h4>
 								<h3>
-									Jennifer<br>Wilson
+									Allison<br>Sullivan
 								</h3>
 								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
 							</div>
@@ -210,9 +210,9 @@
 								<img src="./assets/img/trainers/11.jpg" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>FITNESS ATTENDANT</h4>
 								<h3>
-									Jennifer<br>Wilson
+									Edan<br>Nelson
 								</h3>
 								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
 							</div>
@@ -224,9 +224,9 @@
 								<img src="./assets/img/trainers/12.png" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>FITNESS ATTENDANT</h4>
 								<h3>
-									Jennifer<br>Wilson
+									Debra<br>Baldwin
 								</h3>
 								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
 							</div>
@@ -240,9 +240,9 @@
 								<img src="./assets/img/trainers/13.jpg" class="trainer-img"/>
 							</div>
 							<div class="text">
-								<h4>TRAINER AND GROUP CLASS INSTRUCTOR</h4>
+								<h4>FITNESS ATTENDANT</h4>
 								<h3>
-									Jennifer<br>Wilson
+									Jason<br>Tafuri
 								</h3>
 								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
 							</div>

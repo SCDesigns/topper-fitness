@@ -201,7 +201,7 @@ hr {
 }
 
 #trainers {
-  background-color: #FFFFFF;
+  background-image: linear-gradient(#FFFFFF, #EEEEEE 33%, #BDBDBD 66%, #757575);
   font-family: HelveticaNeueLTStdHv;
   color: #000;
   width: 100%;
@@ -210,7 +210,7 @@ hr {
 }
 
 #staff {
-  background-color: #000000;
+  background-image: linear-gradient(#757575, #424242 33%, #212121 66%, #000000);
   font-family: HelveticaNeueLTStdHv;
   color: #FFF;
   width: 100%;
@@ -245,7 +245,6 @@ hr {
 	border-radius: 1px;
 	padding-bottom: 84px;
 	background-color: #fff;
-  border: 2px solid rgba(207,215,223,.25);
 	box-shadow: 0 0 6px 0 rgba(103, 117, 120, .09);
 }
 
