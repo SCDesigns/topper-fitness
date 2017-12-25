@@ -26,6 +26,10 @@ body {
   font-variant-numeric: proportional-nums;
 }
 
+h3 {
+  font-size: 40px;
+}
+
 .hero h1 {
   text-transform: uppercase;
   font-family: HelveticaNeueLTStdHv;
@@ -38,7 +42,7 @@ body {
   display: inline-block;
 }
 
-.landing {
+#landing {
   background-image: linear-gradient(to bottom left, #212121, #424242);
   width: 100%;
   height: 100vh;
@@ -76,6 +80,7 @@ hr {
   width: 175px;
   margin: 15px 5px -20px;
 }
+
 .navlist {
   display: flex;
   flex: 1;
@@ -90,11 +95,18 @@ hr {
 .navlist a {
   text-decoration: none;
   color: #E0E0E0;
+  padding-bottom: 5px;
 }
 
 .navlist a:hover {
   font-weight: bold;
   color: #fff;
+}
+
+.navlist a:active {
+  font-weight: bold;
+  color: #fff;
+  border-bottom: solid 5px #fff;
 }
 
 .navHeader {
@@ -117,7 +129,7 @@ hr {
   justify-content: left;
 }
 
-.landing {
+#landing {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -140,7 +152,7 @@ hr {
   line-height: 5px;
 }
 
-.about {
+#about {
   background-image: url(../assets/img/about-bg.png);
   background-position: center;
   background-size: cover;
@@ -149,7 +161,6 @@ hr {
   color: #000;
   width: 100%;
   height: 800px;
-  font-size: 40px;
 }
 
 .overlay {
@@ -162,12 +173,11 @@ hr {
   position: absolute;
 }
 
-.about h3 {
+#about h3 {
   margin: -15px auto 15px;
-  display: inline;
 }
 
-.about p {
+#about p {
   font-size: 20px;
   line-height: 40px;
   width: 400px;
@@ -179,7 +189,170 @@ hr {
   margin: 160px auto 0 725px;
   width: 500px;
   display: flex;
-  height: 80.1%;
+  height: 80.2%;
   position: absolute;
   border: 25px solid #FFFFFF;
+}
+
+.trainer-img {
+  height: 200px;
+  width: auto;
+  margin: 0;
+}
+
+#trainers {
+  background-color: #FFFFFF;
+  font-family: HelveticaNeueLTStdHv;
+  color: #000;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#staff {
+  background-color: #000000;
+  font-family: HelveticaNeueLTStdHv;
+  color: #FFF;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#trainers hr, #staff hr {
+  display: block;
+  color: #000;
+  width: 250px;
+  margin: -15px auto 15px;
+}
+
+.team-item {
+	position: relative;
+	margin: 17px 0 22px;
+  padding: 20px;
+	cursor: pointer;
+	border-radius: 1px;
+	padding-bottom: 84px;
+	background-color: #fff;
+  border: 2px solid rgba(207,215,223,.25);
+	box-shadow: 0 0 6px 0 rgba(103, 117, 120, .09);
+}
+
+.text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	overflow: hidden;
+	max-height: 84px;
+	border: solid 1px #f2f2f2;
+	border-top: 0;
+	transition: all .5s ease-in-out;
+	padding: 12.5px 15px;
+	right: 0;
+}
+
+.team-item h3 {
+	font-size: 30px;
+	line-height: 1.2;
+	text-align: left;
+	transition: all .5s ease-in-out;
+	max-height: 36px;
+	margin-top: 5px;
+  margin-bottom: 10px;
+	overflow: hidden;
+	color: #333;
+}
+
+.team-item h4 {
+  color: #616161;
+  font-size: 10px;
+  font-weight: bold;
+  height: 20px;
+  letter-spacing: .5px;
+  line-height: 10px;
+  margin: 0 0 15px;
+  text-align: left;
+}
+
+.team-item img {
+  width: 100%;
+}
+
+.team-item .image {
+  margin: -1px -1px 0;
+  position: relative;
+}
+
+/* .team-item .image img:last-child {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} */
+
+.team-item p {
+	color: #616161;
+	font-size: 12px;
+	line-height: 1.2;
+	margin: 0;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+.team-item p .em {
+	display: block;
+	float: left;
+	height: 30px;
+	margin: 0 5px 0 0;
+	width: 30px;
+	font-size: 25px;
+}
+
+.team-item:hover h3, .team-item:hover .text {
+	max-height: 254px;
+}
+
+.team-item .text {
+  max-height: none !important;
+  height: 84px;
+}
+
+.team-item:hover .text {
+    height: 100%;
+    max-height: 100%;
+}
+
+.team-item.active .image img:last-child {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4 {
+    float: left;
+    padding: 40px;
+  }
+  .col-sm-4 {
+    width: 28.57142857%;
+  }
+@media (min-width: 1024px) {
+  .col-md-offset-2 {
+    margin-left: 14.28571429%;
+  }
+  .col-md-3 {
+    width: 21.42857143%;
+  }
 }
