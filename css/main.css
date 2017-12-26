@@ -74,7 +74,7 @@ hr {
   color: #FFFFFF;
 }
 
-.overlay hr {
+.about-text hr {
   display: block;
   color: #000;
   width: 175px;
@@ -163,7 +163,7 @@ hr {
 }
 
 #about {
-  background-image: url(../assets/img/about-bg.png);
+  background-color: #FFFFFF;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
@@ -173,14 +173,11 @@ hr {
   height: 800px;
 }
 
-.overlay {
-  background-color: #FFFFFF;
+.about-text {
   width: 500px;
-  height: 80%;
-  margin: 0 auto auto 250px ;
-  padding: 60px;
-  z-index: 1;
-  position: absolute;
+  height: auto;
+  padding: 5em;
+  float: left;
 }
 
 #about h3 {
@@ -196,12 +193,10 @@ hr {
 }
 
 .about-img {
-  margin: 160px auto 0 725px;
-  width: 500px;
-  display: flex;
-  height: 80.2%;
-  position: absolute;
-  border: 25px solid #FFFFFF;
+  width: 800px;
+  height: auto;
+  float: right;
+  margin-top: 10em;
 }
 
 .trainer-img {
@@ -349,19 +344,29 @@ hr {
   opacity: 1;
 }
 
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4 {
+    float: left;
+    padding: 3em;
+  }
+  .col-sm-4 {
+    width: 24em;
+    height: auto;
+  }
+}
+
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4 {
     float: left;
-    padding: 40px;
+    padding: 2em;
   }
   .col-sm-4 {
-    width: 28.57142857%;
+    width: 20em;
   }
-@media (min-width: 1024px) {
+}
+
+@media (min-width: 1300) {
   .col-md-offset-2 {
-    margin-left: 14.28571429%;
-  }
-  .col-md-3 {
-    width: 21.42857143%;
+    margin-left: 10em;
   }
 }

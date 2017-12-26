@@ -40,10 +40,12 @@
 			</div>
 		</section>
 		<section id="about">
-			<div class="overlay">
+			<div class="about-text">
 				<h3>About</h3>
 				<hr>
 				<?php include "./partials/sections/about.html" ?>
+			</div>
+			<img src="./assets/img/about.jpg" class="about-img"/>
 		</section>
 		<section id="trainers">
 			<h3>The Trainers</h3>
