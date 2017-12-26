@@ -84,6 +84,10 @@ hr {
 .navlist {
   display: flex;
   flex: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
 }
 
 .navlist li {
@@ -94,6 +98,7 @@ hr {
 
 .navlist a {
   text-decoration: none;
+  text-transform: uppercase;
   color: #E0E0E0;
   padding-bottom: 5px;
 }
@@ -120,14 +125,19 @@ hr {
 }
 
 .navHeader ul {
-  padding: 0px;
+  padding: 10px 0;
   margin: 0px;
 }
 
 .navHeader .navbar {
   position: relative;
   justify-content: left;
+  background: transparent;
 }
+
+/* .affix {
+  background-color: #000000;
+} */
 
 #landing {
   background-image: linear-gradient(

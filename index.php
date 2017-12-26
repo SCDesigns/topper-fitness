@@ -26,230 +26,34 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
+		<!--imports-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="./js/nav.js" type="text/javascript"></script>
 	</head>
-	<body>
-		<?php include "./layouts/header.html" ?>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<?php include "./partials/layouts/header.html" ?>
 		<section id="landing">
 			<div class="hero">
 				<h1>Topper Fitness</h1>
-				<hr><h4>Welcome to the TOP</h4><hr>
+				<hr><h4 id="nav-trigger">Welcome to the TOP</h4><hr>
 			</div>
 		</section>
 		<section id="about">
 			<div class="overlay">
 				<h3>About</h3>
 				<hr>
-				<p>Unlike the normal gym setting, here at Topper Fitness you will be part of the family.
-					Topper Fitness offers general memberships, specialized personal training and popular small
-					group fitness classes for our clients. Topper Fitness features state of the art LifeFitness
-					cardio and strength training equipment in addition to free weights, TRX and other multiple
-					tools of training.</p>
-			</div>
-			<img src="./assets/img/about.jpg" class="about-img"/>
+				<?php include "./partials/sections/about.html" ?>
 		</section>
 		<section id="trainers">
 			<h3>The Trainers</h3>
 			<hr>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/1.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>OWNER / DIRECTOR OF TRAINING</h4>
-								<h3>
-									Kevin<br>Topper
-								</h3>
-								<p>A certified strength and conditioning coach for twenty-four (24) years, Kevin has worked for years with both professional and collegiate athletes and uses many of the same methods in training clients who would like to achieve their highest level of fitness.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/2.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>RN, BSN, OWNER / DIRECTOR OF TRAINER FOR SPECIAL POPULATIONS</h4>
-								<h3>
-									Cinde<br>Topper
-								</h3>
-								<p>After a year and a half as an RN in both the hospital setting and in medical-surgical rehabilitation with a focus on geriatrics, Cinde decided to bring her knowledge to the prevention of disease and maintenance of health. Cinde strives to help clients dealing with obesity, cardiovascular disease and type II diabetes, as well as but not limited to, clients with cancer, Alzheimer’s and other cognitive disorders, Parkinson’s, Multiple Sclerosis (MS), Chronic Obstructive Pulmonary Disease (COPD), Arthritis, depression and anxiety disorders.
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/3.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>TRAINER / GROUP CLASS INSTRUCTOR</h4>
-								<h3>
-									Jennifer<br>Wilson
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-				</div><!-- row -->
-				<div class="row">
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/4.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>FACILITY MANAGER / TRAINER / GROUP CLASS INSTRUCTOR</h4>
-								<h3>
-									Darci<br>Hill
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/5.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>MS ATHLETIC CONDITIONING TRAINING / TRAINER / GROUP CLASS INSTRUCTOR</h4>
-								<h3>
-									Branden<br>Peloso
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/6.png" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>BS IN EXERCISE SCIENCE / TRAINER FOR SPECIAL POPULATIONS</h4>
-								<h3>
-									Tyler<br>Morgan
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-				</div><!-- row -->
-				<div class="row">
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/7.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>TRAINER / GROUP CLASS INSTRUCTOR</h4>
-								<h3>
-									Addie<br>Foley
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/8.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>GROUP CLASS INSTRUCTOR</h4>
-								<h3>
-									Mike<br>Huey
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/9.png" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>ATHLETIC CONDITIONING EDUCATION / TRAINER / GROUP CLASS INSTRUCTOR</h4>
-								<h3>
-									Donna<br>Minotti
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-				</div><!-- row -->
-			</div><!-- container-->
+			<?php include "./partials/sections/trainers.html" ?>
 		</section>
 		<section id="staff">
 			<h3>The Staff</h3>
 			<hr>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/10.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>FITNESS ATTENDANT</h4>
-								<h3>
-									Allison<br>Sullivan
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/11.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>FITNESS ATTENDANT</h4>
-								<h3>
-									Edan<br>Nelson
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/12.png" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>FITNESS ATTENDANT</h4>
-								<h3>
-									Debra<br>Baldwin
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-				</div><!-- row -->
-				<div class="row">
-					<div class="col-sm-4 col-md-3 col-md-offset-1  col-sm-offset-0">
-						<div class="team-item">
-							<div class="image">
-								<img src="./assets/img/trainers/13.jpg" class="trainer-img"/>
-							</div>
-							<div class="text">
-								<h4>FITNESS ATTENDANT</h4>
-								<h3>
-									Jason<br>Tafuri
-								</h3>
-								<p>Jennifer has been with Topper Fitness for the past three and a half years. Jen is very knowledgeable in all aspects of daily fitness for all types of individuals. She has an extremely approachable persona that allows her to develop close relationships with her clients to help them achieve their unique fitness goals.</p>
-							</div>
-						</div>
-					</div>
-				</div><!--row-->
-			</div><!-- container-->
-		</section><!-- staff -->
+			<?php include "./partials/sections/staff.html" ?>
+		</section>
 	</body>
 </html>
