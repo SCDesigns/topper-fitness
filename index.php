@@ -26,7 +26,8 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
-		<!--imports-->
+		<!--imports (Bootstrap / jQuery)-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="./js/nav.js" type="text/javascript"></script>
@@ -40,12 +41,14 @@
 			</div>
 		</section>
 		<section id="about">
-			<div class="about-text">
+			<div class="about-text col-md-6">
 				<h3>About</h3>
 				<hr>
 				<?php include "./partials/sections/about.html" ?>
 			</div>
-			<img src="./assets/img/about.jpg" class="about-img"/>
+			<div class="col-md-6">
+				<img src="./assets/img/about.jpg" class="about-img"/>
+			</div>
 		</section>
 		<section id="trainers">
 			<h3>The Trainers</h3>
